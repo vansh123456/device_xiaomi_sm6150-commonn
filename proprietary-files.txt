@@ -16,6 +16,9 @@ vendor/etc/init/vendor.qti.cdsprpc-service.rc
 -vendor/lib64/libsdsprpc.so
 
 # ADSP modules
+-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
+-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
+-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
 vendor/lib/rfsa/adsp/dirac_resource.dar
 -vendor/lib/rfsa/adsp/libVC1Dec.so
 -vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
@@ -60,8 +63,8 @@ system_ext/framework/audiosphere.jar
 # Bluetooth
 -vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
--vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 -vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
+-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 -vendor/lib/libbluetooth_audio_session_qti.so
 -vendor/lib/libbluetooth_audio_session_qti_2_1.so
 -vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
